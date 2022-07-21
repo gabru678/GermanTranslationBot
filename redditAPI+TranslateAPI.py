@@ -3,11 +3,11 @@ import os, praw
 
 # -------------------------- Reddit Setup ------------------------
 reddit = praw.Reddit(
-    client_id= 'UIOqsHrBEwDpxxCgaXdiBw',
-	client_secret= 'sVAPDIXglzN5_vU0ZXXyg28Hse94pg',
+    client_id= 'clientID',
+	client_secret= 'clientSecret',
     user_agent='<console:reddit_bot:0.0.7 (by /u/IchDeutschLerne)>',
 	username = 'IchDeutschLerne',
-	password = 'cagDLp5LRYUriw4'
+	password = 'password'
 	)
 
 print(reddit.read_only)
